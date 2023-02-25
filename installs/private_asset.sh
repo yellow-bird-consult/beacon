@@ -27,7 +27,7 @@ FILE="$2"      # the name of your release asset file, e.g. build.tar.gz
 VERSION="$1"                       # tag name or the word "latest"
 GITHUB="https://api.github.com"
 
-function gh_curl() {
+gh_curl() {
   curl -H "Authorization: token $TOKEN" \
        -H "Accept: application/vnd.github.v3.raw" \
        $@
