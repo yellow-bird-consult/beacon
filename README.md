@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/yellow-bird-consult/beacon/main/installs/
 This gives us the private asset script, we can then download the private asset with the following command:
 
 ```bash
-sh private_asset.sh 0.0.6 wedp-aarch64-apple-darwin.tar.gz <GITHUB_TOKEN> yellow-bird-consult/wedding_planner
+sh private_asset.sh v0.0.6 wedp-aarch64-apple-darwin.tar.gz <GITHUB_TOKEN> yellow-bird-consult/wedding_planner
 ```
 
 The above action will download the wedding planner docker orchestration tool for testing and development. Once you
